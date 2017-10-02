@@ -2,8 +2,8 @@ class Cat
   # code goes here
   attr_accessor :mood, :name
   def initialize (name)
-    @name.dup.freeze = name
+    @name = name
     @mood = "nervous"
-    
+
   end
 end
