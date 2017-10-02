@@ -2,6 +2,7 @@ class Owner
   # code goes here
 attr_accessor :owner
 @@all = 0
+
   def self.track(owner)
     @@all +=1
   end
