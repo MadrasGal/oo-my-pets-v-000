@@ -3,15 +3,11 @@ class Owner
 attr_accessor :owner_name
 
 @@all = 0
-@track = []
+track = []
 
-  def initialize
-    track = []
-  end
-
-  def self.add_owners(owner_name) 
+  def initialize(owner_name)
     @track << owner_name
-    owner_name.Owner = self unless owner_name.owner == self
+    @@all +=1
   end
 
   def self.all
