@@ -9,6 +9,7 @@ track = []
     @track << owner_name
     @@all +=1
   end
+  
   def self.all
     @@all
   end
