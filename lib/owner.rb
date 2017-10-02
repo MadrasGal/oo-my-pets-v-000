@@ -14,6 +14,10 @@ attr_accessor :owner_name
     @@all
   end
 
+  def self.reset_all
+
+  end
+
   def species
   end
 
