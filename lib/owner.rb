@@ -3,7 +3,7 @@ class Owner
 attr_accessor :owner_name
 
 @@all = 0
-@owner = []
+owner = []
 
   def initialize(owner_name)
     @owner << owner_name
