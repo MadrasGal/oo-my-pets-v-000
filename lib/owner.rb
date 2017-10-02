@@ -5,7 +5,7 @@ attr_accessor :owner_name
 @@all = 0
 track = []
 
-  def initialize(owner_name)
+  def self.all(owner_name)
   @track << owner_name
   @@all +=1
   end
