@@ -1,10 +1,13 @@
 class Owner
   # code goes here
-attr_accessor :owner
-@@all = 0
+attr_accessor :owner_name
 
-  def self.track(owner)
-    @@all +=1
+@@all = 0
+track = []
+
+  def initialize(owner_name)
+  @track << owner_name
+  @@all +=1
   end
 
   def species
