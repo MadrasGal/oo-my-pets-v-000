@@ -6,7 +6,7 @@ class Cat
     @mood = "nervous"
   end
 
-  def abc
+  def name
     @name.dup.freeze
   end
 end
