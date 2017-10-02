@@ -11,7 +11,7 @@ attr_accessor :owner_name
 
   def add_owners(owner_name) # has_many stories interface
     @track << owner_name
-    track.Owner = self unless track.owner == self
+    owner_name.Owner = self unless owner_name.owner == self
   end
 
   def self.all
