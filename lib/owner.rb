@@ -3,9 +3,10 @@ class Owner
 attr_accessor :owner_name
 
 @@all = 0
-track = []
+
 
   def initialize(owner_name)
+    track = []
     @track << owner_name
     @@all +=1
   end
