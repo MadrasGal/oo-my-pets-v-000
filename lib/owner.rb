@@ -5,9 +5,8 @@ attr_accessor :owner_name
 @@all = 0
 track = []
 
-  def self.all(owner_name)
-  @track << owner_name
-  @@all +=1
+  def self.all
+    @@all
   end
 
   def species
